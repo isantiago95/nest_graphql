@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  """
+  Returns a greeting message
+  """
+  hello: String!
+  randomNumber: Float!
+
+  """
+  Returns a random integer from 0 to the specified "to" value (exclusive)
+  """
+  getRandomFromZeroTo(to: Int): Int!
+}
